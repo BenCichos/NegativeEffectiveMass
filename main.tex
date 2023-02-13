@@ -32,7 +32,7 @@
 \begin{document}
 \maketitle
 \begin{figure*}[hbt]
-	\includegraphics[width=\textwidth]{mechanical_wave_machine.jpg}
+	\includegraphics[width=\textwidth]{images/mechanical_wave_machine.jpg}
 \end{figure*}
 
 \clearpage
@@ -53,7 +53,7 @@ The mechanical wave machine employed in this investigation consists of periodica
 A simple harmonic oscillator can be realised by a mass $m$ coupled via a spring with spring constant $k$ to a wall. The mass shall slide without friction along the ground. The wall can be moved by an external force $F_{\rm ext}(t)$ (see Fig \ref{fig:SHO}).
 
 \begin{figure}[hbt]
-  \includegraphics[width=\columnwidth]{simple_harmonic_oscillator.pdf}
+  \includegraphics[width=\columnwidth]{fundamentals/simple_harmonic_oscillator.pdf}
   \caption{Model of a simple harmonic oscillator without friction, exposed to an external excitation}\label{fig:SHO}
 \end{figure}
 
@@ -81,7 +81,7 @@ This  equation is solved by substituting  $x(t)=x_0 e^{-i\omega t+\phi}$ as the 
 Figure 2 illustrates that eq.~\ref{eq:7} has a singularity at the resonance  $\omega_0 = \omega$.  When $\omega > \omega_0$ the amplitude becomes negative as the external excitation of the oscillator and the oscillation itself are acting in opposite directions ($\phi=\pi$). For $\omega < \omega_0$ the phase angle $\phi=0$.
 
 \begin{figure}[hbt]
-  \includegraphics[width=0.5\columnwidth]{driven_harmonic_oscillator}
+  \includegraphics[width=0.5\columnwidth]{fundamentals/driven_harmonic_oscillator}
   \caption{The graph shows eq.\ref{eq:7} when plotted. For simplification arbitrary values were used for $F_0$, $m$ and $\omega_0$ ($F_0=1\, N$, $m = 1 \,kg$, $\omega_0 = 1\, Hz$) to the show the relationship between amplitude $x_0$ and frequency $\omega$.}
 \end{figure}
 
@@ -89,7 +89,7 @@ Figure 2 illustrates that eq.~\ref{eq:7} has a singularity at the resonance  $\o
 \subsection{Mass with an internal oscillator}
 For my experiments I modified the mass $m$ of the oscillator described above. The mass of the new oscillator comprises an internal oscillator inside a larger object with the mass $M_{0}$.
 \begin{figure}[hbt]
-  \includegraphics[width=0.7\columnwidth]{oscillator_with_internal_degree_of_freedom.pdf}
+  \includegraphics[width=0.7\columnwidth]{fundamentals/oscillator_with_internal_degree_of_freedom.pdf}
   \caption{Model of an oscillator with internal degree of freedom}
 \end{figure}
 The basic unit is shown in Figure 3. A rigid bar of mass $M_0$ has a cavity to connect to a rigid sphere of mass $m$ by two massless elastic springs with equal constant $k$. The bar together with the internal sphere and springs is equivalent to a solid object with an effective mass of $M_{\rm eff}$. The force of the periodic external excitation is given by the equation, 
@@ -144,7 +144,7 @@ The resonance frequency of the internal oscillator is expressed by $\omega_0 = \
 \end{equation} 
 Equation eq. \ref{eq:20} shows that the effective mass $M_{\rm eff}$ can be negative in the frequency range from $\omega_0$ to $\omega_0 \sqrt{(M_0 + m)/ M_0}.$ The negativity of the effective mass comes from the negative momentum of the sphere, since it moves in the opposite direction relative to the bar after resonance. 
 \begin{figure}[hbt]
-  \includegraphics[width=0.7\columnwidth]{effective_mass.pdf}
+  \includegraphics[width=0.7\columnwidth]{fundamentals/effective_mass.pdf}
   \caption{Effective mass according to eq. \ref{eq:20} with $m=0.0073 kg$, $M_{0}=0.0146\, g$ and $\omega_0=2\pi f_{0}=18.52\,{\rm Hz}$. The red shaded area indicates the frequency region in which the effective mass of the oscillator is negative.}
 \end{figure}
 Figure 4 illustrates that when examining an object with internal oscillator by employing Newton's theory I obtain a frequency range in which the effective mass of the oscillator appears to be negative.
@@ -157,7 +157,7 @@ I obtain a singularity at $\omega = \omega_0$. As $\omega$ approaches $\omega_0$
 \subsection{Chain of Coupled Oscillators - Waves}\label{sec:coupled:waves}
 The negative effective mass has several consequences for a chain of oscillators where the units with $M_{\rm eff}$ as described before are coupled with equal springs of constant $k$, as shown in Figure 5. 
 \begin{figure}[hbt]
-  \includegraphics[width=0.8\columnwidth]{chain_of_oscillators.pdf}
+  \includegraphics[width=0.8\columnwidth]{fundamentals/chain_of_oscillators.pdf}
   \caption{An infinite periodic mass-spring system}
 \end{figure}
 The negative effective mass will change the so-called dispersion relation and the transmission of waves through the chain. The dispersion relation refers to the mathematical relationship between the wavenumber $q$ and the frequency $\omega$ and can be obtained analytically. The spacing between each unit is assumed to be $a$. From Newton's law of motion, the force on the $n$th mass proves to be the following equation, where $X_n$ is the displacement of the $n$th unit.
@@ -197,11 +197,11 @@ From eq. \ref{eq:25} I get the dispersion relation for an infinite periodic syst
 To verify the frequency-dependent effective mass of the unit analysed in the previous section, I conducted an experiment of the 2D mass-spring system, for which a mechanical wave machine was employed. The wave machine is different to the model analysed previously.
 	Section 5.1 discusses its equivalence to the described theory.
 \begin{figure}[hbt]
-  \includegraphics[width=.8\columnwidth]{experimental_setup_sketch}
+  \includegraphics[width=.8\columnwidth]{experimental_setup/experimental_setup_sketch}
   \caption{Scheme of the experimental setup from the top view}
 \end{figure}
 \begin{figure}[hbt]
-  \includegraphics[width=.8\columnwidth]{experimental_setup_sketch_side}
+  \includegraphics[width=.8\columnwidth]{experimental_setup/experimental_setup_sketch_side}
   \caption{Scheme of the wave machine from the side}
 \end{figure}
 
@@ -212,18 +212,18 @@ The effect of a periodic excitation on the wave machine was investigated under t
 
 \paragraph{C1: Single mass with an internal degree of freedom.} The first configuration (C1) employs a bracket to form a single mass with an internal oscillator out of three levers. Out of the three levers the first and last lever are fixed together by the bracket. The middle lever is free to move on its own and resembles the internal oscillator. Figure \ref{fig:figure9} sketches the arrangement of the configuration C1.
 \begin{figure}[hbt]	
-  \includegraphics[width=.7\columnwidth]{condition3}
+  \includegraphics[width=.7\columnwidth]{configurations/condition3.pdf}
   \caption{Scheme of the wave machine for configuration C1, as a single mass with an internal degree of freedom. The unit has the effective mass $M_{\rm eff}$ consists of $M_0$ and the internal mass $m$. $M_0$ is equal to the mass $2m$.}\label{fig:figure9}
 \end{figure}
 \paragraph{C2: Simple chain of oscillators}In the second configuration C2 the wave machine is left in its original state and the levers are only connected to each other by springs (see Figure 9).
 \begin{figure}[h!]	
-  \includegraphics[width=.7\columnwidth]{condition1}
+  \includegraphics[width=.7\columnwidth]{configurations/condition1.pdf}
   \caption{Scheme of the wave machine for configuration C2, as a simple chain of masses. Each mass $m$ is representative of a single lever, which is connected to neighbouring levers by a spring with constant k.}
 \end{figure}
 
 \paragraph{C3: Chain of masses with an internal oscillator.}For the third configuration C3 the wave machine was altered through the addition of 3D-printed brackets. Three levers form a single unit, which is connected to the next by springs. Overall, this investigation uses a chain of 7 such units, with a distance of 6 cm between each other.
 \begin{figure}[hbt]	
-  \includegraphics[width=.7\columnwidth]{condition2.pdf}
+  \includegraphics[width=.7\columnwidth]{configurations/condition2.pdf}
   \caption{Scheme of the model for the configuration C3, as a chain of masses with an internal degree of freedom. The unit has the effective mass $M_{\rm eff}$ consists of $M_0$ and the internal mass $m$. $M_0$ is equal to the mass $2m$.} \label{fig:figure8}
 \end{figure}
 
@@ -240,24 +240,24 @@ To analyse the motion of each lever, I used a colour tracking procedure develope
 The levers were tracked using yellow markers at each lever. Figure \ref{fig:raw} shows a representative image as recorded by the camera. 
 
 \begin{figure}[hbt]
-  \includegraphics[width=.6\columnwidth]{data_analysis_sample_frame}
+  \includegraphics[width=.6\columnwidth]{analysis/data_analysis_sample_frame}
   \caption{Sample image taken from the camera. Each red region represents a lever of the wave machine. The red dots correspond to the yellow markers.}\label{fig:raw}
 \end{figure}
 
 The images are imported into the python program. I select only the pixels in a certain color region representing the yellow dots. By this procedure, I achieve a binarization of the image into black or white areas. A sample frame is shown in Figure \ref{fig:binary}.
 \begin{figure}[hbt]
-  \includegraphics[width=.8\columnwidth]{colour_channel_adjustment}
+  \includegraphics[width=.8\columnwidth]{analysis/colour_channel_adjustment}
   \caption{Sample frame after the binarization of the previous image using a selection of a certain color range.} \label{fig:binary}
 \end{figure}
 This binarized image can now be used with built-in procedures of the skimage python module to identify the centre positions of the lever masses. I employ the difference of gaussians blob tracking method of skimage, which delivers the positions of each lever [5]. All lever positions in one frame are recorded in a data array and the procedure is repeated for all frames in the recorded movie for each excitation frequency of the wave machine.  The positions are exported to a CSV file for further data analysis. Figure \ref{fig:tracked} illustrates a sample frame after each lever has been properly tracked.
 \begin{figure}[hbt]
-  \includegraphics[width=.8\columnwidth]{blob_tracking}
+  \includegraphics[width=.8\columnwidth]{analysis/blob_tracking}
   \caption{Sample frame after each lever has wavenumber been detected. The dots inside the yellow regions are indicators for the tracked positions of the levers.}\label{fig:tracked}
 \end{figure}
 \subsubsection{Amplitude ratio}
 To determine the amplitude of each lever its positions during all frames are plotted in a single graph (Figure \ref{fig:elongations}).
 \begin{figure}[hbt]
-  \includegraphics[width=.8\columnwidth]{amplitude}
+  \includegraphics[width=.8\columnwidth]{analysis/amplitude}
   \caption{Plot of elongations for all the frames in the data recording.}\label{fig:elongations}
 \end{figure}
 From Figure \ref{fig:elongations} I can isolate the tracking of the first (rightmost) and last (leftmost) lever of the wave machine. I then determine the difference between the maximum and the minimum y-position of both corresponding to the total amplitude $X=X_{\rm max}-X_{\rm min}$. This is employed to derive the amplitude ratio $|X_{21}|/|X_1|$ (transmission). This procedure is used for two configurations C2 and C3. In configuration C1 I extracted the amplitude ratio through $|x_{m}|/|X_{M_{0}}|$, which are the displacements of $m$ and $M_0$, respectively.
@@ -265,7 +265,7 @@ From Figure \ref{fig:elongations} I can isolate the tracking of the first (right
 \subsubsection{Wavelength and wavenumber determination}
 To determine the wavelength and wavenumber I converted the distance in pixel to centimeters using the known length of the wave machine. The wavelength and wavenumber are deduced from a single frame, by fitting a sine function ($y(x) = A\sin(qx + \phi) + B$) to the positioning of the detected levers. 
 \begin{figure}[hbt]
-  \includegraphics[width=0.8\textwidth]{wavelength_determination}
+  \includegraphics[width=0.8\textwidth]{analysis/wavelength_determination}
   \caption{Sine curve, of the form $y(x) = A\sin(qx + \phi) + B$, modeled to the positioning of the levers. The dotted line represents the equilibrium position}\label{fig:wavelength}
 \end{figure}
 Figure \ref{fig:wavelength} shows a sample graph. The circles mark the position of each lever and the blue line represents the fitted function. The wavenumber $q$ and the wavelength are related by $q = 2\pi/\lambda$. The parameter $B$ corresponds to an offset of the levers in the vertical direction. The parameter $\phi$  denotes the spatial phase of the wave. 
@@ -274,12 +274,12 @@ Figure \ref{fig:wavelength} shows a sample graph. The circles mark the position 
 \subsection{Equivalence of the wave machine and the oscillator model}\label{sec:results:equivalence}
 The theory described in section 2 refers to a model where masses are coupled by springs and create a longitudinal wave with a one dimensional motion. For my investigations, however, I had a wave machine, which is a system of coupled levers which rotate around a central axis (Figure \ref{fig:config}). 
 \begin{figure}[hbt]
-  \includegraphics[width=0.5\textwidth]{equivalance_new.pdf}
+  \includegraphics[width=0.5\textwidth]{results/equivalance_new.pdf}
   \caption{Sketch of the configuration of the lever arms in the wave machine. Each of the masses at the end of the levers has a weight of $m=7.3$ g. The spring constant of each spring is $k_s=32.3\, Nm^{-1}$}\label{fig:config}
 \end{figure}
 
 \begin{figure}[hbt]
-  \includegraphics[width =.5\textwidth]{equivalance.pdf}
+  \includegraphics[width =.5\textwidth]{results/equivalance.pdf}
   \caption{Mapping of the actual configuration of the wave machine with the rotating levers to a configuration where the individual masses are coupled in the vertical direction by springs.}\label{fig:equivalence}
 \end{figure}
 I therefore had to map the more complicated experimental situation to the  scheme depicted in Figure \ref{fig:equivalence}. There the wave is still transverse but the described theory above remains valid. To do this mapping, I have to convert the spring constant in the current experiments into the spring constants which can be used in this simplified model. I analyse the equation of motion for the levers under the torque of the springs based on the sketch in Figure \ref{fig:config}. The torque acting on the levers in Figure \ref{fig:config} is given by the springs with the spring constant $k_s$. Changing the angle by an amount $\theta$ extends the spring by $l_{1}\sin(\theta)$ such that the force of the spring on one side is $k_s\, l_{1}\sin(\theta)$. This force is applied on a lever with a length $l_{1}\cos(\theta)$. The torque is acting twice due to the two springs, one on each side of the lever. I abbreviate $k=2k_{s}$. The motion of the lever is determined by the angular acceleration $\ddot{\theta}$ and the moment of inertia of a dumbbell $I=2 m l_{2}^2$. Thus the equation of motion reads
@@ -319,7 +319,7 @@ The effective spring constant $k_{\rm eff}$ can be determined from the experimen
 \subsection{Single mass with an internal oscillator}
 I first study the properties of a single oscillator (configuration C1, see section \ref{sec:section3}). I examine the amplitude ratio between the two masses $M_0$ and $m$ and the phase angle between their oscillation. The experiment was conducted in the range from $f=2.70$ Hz to $f=3.20$ Hz at increments of 0.05 Hz in 11 measurements. 
 \begin{figure}[hbt]
-  \includegraphics[width=0.9\columnwidth]{condition3_amplitude_ratio}
+  \includegraphics[width=0.9\columnwidth]{results/condition3_amplitude_ratio}
   \caption{(left) Amplitude ratio $|X_m|/|X_{M_0}|$ between $m$ and $M_0$ of a single oscillator (configuration C1) under periodic excitation. The solid line is obtained from eq. \ref{eq:ratio} inserting the experimental data on mass and $k_{\rm eff}$. (right) Phase difference between the excitation frequency (measured at $M_{0}$) and the observed oscillation of $m$.} \label{fig:figure17}
 \end{figure}
 Figure~\ref{fig:figure17} displays the amplitude ratio between the free lever and the excited  lever $X_{m}/X_{M_{0}}$. The amplitude of $m$ enlarges until a frequency of $f_{0}=2.945 \:Hz$ corresponding to eq.~\ref{eq:ratio}. This frequency is the resonance frequency of the oscillator. The amplitude ratio is maximum at this frequency and decays to lower and higher frequencies. At frequencies larger than the resonance frequency, $m$  moves in the opposite direction with respect to $M_0$ (phase angle of $\pi$, right plot in Fig. \ref{fig:figure17}). 
@@ -327,17 +327,15 @@ Figure~\ref{fig:figure17} displays the amplitude ratio between the free lever an
 \subsection{Simple chain of masses}
 In configuration C2 (chain of coupled oscillators) I investigated the transmission $|X_{21}|/|X_1|$ of the system at different excitation frequencies. In the frequency range from $f=0.9$ Hz to $f=2.0$ Hz, I recorded the amplitude with a frequency increment of 0.02 Hz in 56 individual measurements. In the range from $f=2.2$ Hz to $f=4.0$ Hz I took measurements every 0.2 Hz (10 measurements). From $f=4.1$ Hz to $f=4.5$ Hz additional 5 measurements were conducted at increments of 0.1 Hz. The experimental results for the transmission are shown in Figure \ref{fig:figure19}.
 \begin{figure}[hbt]	
-  \includegraphics[width=\columnwidth]{condition1_amplitude}
+  \includegraphics[width=\columnwidth]{results/condition1_amplitude}
   \caption{Amplitude ratio $|X_{21}|/|X_1|$ between the first and last lever of the wave machine under harmonic excitation (configuration C2). The dotted line represents the amplitude ratio of  $|X_{21}|/|X_1|=1$}\label{fig:figure19}
 \end{figure}
 The graph shows four resonances at $f=1.08$ Hz, $f=1.39$ Hz, $f=1.68$ Hz, $f=1.96$ Hz, where the displacement $X_{21}$ is enhanced by a factor of more than 6. These resonances occur due to the finite length of the chain, which supports a discrete number of standing waves where an integer multiple of half the wavelength fits on the chain. An overall number of 11 resonances should be visible. In the range from $f=2.2$ Hz to $f=4.5$ Hz, the individual peaks in this region are unresolved due to the lower frequency resolution. Beyond $f=4.1$ Hz the amplitude ratio drops to zero due to the fact that the experiment was conducted with oscillators at discrete distances of $a=2\,{\rm cm}$. As the frequency of wave increases its wavelength decreases. The cut-off frequency displayed in Figure \ref{fig:figure19} corresponds to the frequency at which the shortest wavelength ($\lambda=2 a=4$) is realized by the levers, i.e. where neighbouring levers are elongated in opposite directions.
 
 As described in the theory section, the wave propagation along a periodic chain is characterized by the dispersion relation
 
-%To measure this dispersion relation I have been adjusting the frequency generator connected to the actuator to a frequency and measured the wavelength of the wave (see section 4.1.3).
-
 \begin{figure}[hbt]
-  \includegraphics[width=0.5\columnwidth]{dispersion_simple_chain.pdf}s
+  \includegraphics[width=0.5\columnwidth]{results/dispersion_simple_chain.pdf}
   \caption{The dispersion relation $f(q)$ of the wave machine as derived from the experimental results. The wavenumber is given in units of $a/\pi$, where $a$ is the distance between neighbouring levers. The dashed lines represents the theoretical prediction (eq. \ref{eq:25}) using the effective spring constant $k_{\rm eff}$, $a=2\,{\rm cm}$ and $m=7.3\, {\rm g}$.}\label{fig:figure18}
 \end{figure}
  
@@ -349,13 +347,9 @@ As described in the theory section, the wave propagation along a periodic chain 
 The dispersion relation and also the transmission of the chain is modified when inserting the brackets and providing an internal oscillator to each oscillator mass. An excitation may thus yield a localised oscillation of an internal oscillator without a propagation of a wave.
 
 To identify the changes, I have modified the wave machine with 7 brackets and measured the amplitude of the levers as a function of frequency in the frequency range between $f=$ 1.8 Hz to $f=$ 4.4 Hz with a frequency increment of 0.1 Hz (overall 27 movies).
-%\begin{figure}[hbt]
-%  \includegraphics[width=.7\columnwidth]{condition2_results_amplitude_ratio}
- % \caption{Amplitude ratio $|X_N|/|X_0|$ between the first and last lever of the wave machine% under harmonic excitation}
-%\end{figure}
 The results are summarized in Figure \ref{fig:figure20}. The left part of the plot displays the dispersion relation, while the right part depicts the transmission of the system. Note that due to the brackets the individual oscillators of the chain are now spaced at $a=$ 6 cm, while the simple chain had a spacing of $a=$ 2 cm. 
 \begin{figure}[hbt]
-  \includegraphics[width=.7\columnwidth]{condition3_dispersion_transmission.pdf}
+  \includegraphics[width=.7\columnwidth]{results/condition3_dispersion_transmission.pdf}
   \caption{(left) Dispersion relation for the coupled masses with internal oscillators in configuration C3. The dots show the experimental results. The lines are the theoretical predictions with the frequency dependent effective mass $M_{\rm eff}$ (eq. \ref{eq:20}), $a=6$ cm and $k=1.24$ N/m. (right) The transmission of the chain $X_{20}/X_{2}$ as a function of frequency.}\label{fig:figure20}
 \end{figure}
 In the frequency range between $f=2.1$ Hz and $f=3.6$ Hz no wave propagation is supported by the chain (Fig. \ref{fig:figure20} right). Wave propagation is, however, possible at frequencies below $f=2$ Hz and between $f=3.6$ Hz and $f=4.1$ Hz. This gap in the dispersion relation is a clear sign of the introduced internal oscillators. This frequency range corresponds to the negative effective mass of the individual units with the internal oscillators and therefore proofs my hypothesis, that such a negative effective mass becomes visible in a band gap of a modified chain of oscillators. Note that the second band starting at $f=3.6$ Hz at $q=0$ yields a point where the wavelength is infinity despite a non-zero frequency. This means all lever arms oscillate in phase and the effective mass is zero. 
@@ -364,7 +358,7 @@ The experimental values of the dispersion relation is compared to the theoretica
 
 Since within the band gap there is no propagation of the wave possible, the excitation of the oscillators only yields so called evanescent waves. This means that the amplitude of the local oscillations of the oscillators is decaying exponentially as described in section \ref{sec:coupled:waves}. This is also nicely reflected by Figure \ref{fig:figure21}.
 \begin{figure}[hbt] 
-\includegraphics[width=.8\textwidth]{evanescent.pdf}
+\includegraphics[width=.8\textwidth]{results/evanescent.pdf}
 \caption{Plot of all the maximum amplitudes of all lever arms from all frames  as a function of the lever arm position and the frequency for the configuration C3 with a hidden oscillator. The amplitude is given in arbitrary units. }\label{fig:figure21}
 \end{figure}
 
@@ -385,12 +379,12 @@ As an outlook, I would like to mention that more extended measurements on the di
 \clearpage
 \section{Appendix}
 \begin{figure*}[hbt]
-	\includegraphics[width=.96\textwidth]{python_code_c4.pdf}
+	\includegraphics[width=.96\textwidth]{code/python_code_c4.pdf}
 \end{figure*}
 \clearpage
-\includepdf[pages=-]{python_code_c2.pdf}
-\includepdf[pages=-]{python_code_c1.pdf}
-\includepdf[pages=-]{python_code_c3.pdf}
+\includepdf[pages=-]{code/python_code_c2.pdf}
+\includepdf[pages=-]{code/python_code_c1.pdf}
+\includepdf[pages=-]{code/python_code_c3.pdf}
 
 
 \end{document}
